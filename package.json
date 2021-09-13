@@ -1,5 +1,5 @@
 {
-  "name": "test-app",
+  "name": "hatorilab",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,12 +9,30 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/node": "^16.7.8",
+    "@types/react": "^17.0.19",
+    "daisyui": "^1.14.0",
+    "gsap": "^3.7.1",
+    "microcms-js-sdk": "^1.2.0",
     "next": "11.1.2",
+    "next-transpile-modules": "^8.0.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-fade-in": "^2.0.1",
+    "react-player": "^2.9.0",
+    "react-transition-group": "^4.4.2",
+    "styled-components": "^5.3.1",
+    "swiper": "^7.0.5",
+    "typescript": "^4.4.2"
   },
   "devDependencies": {
+    "@types/gsap": "^3.0.0",
+    "@types/react-transition-group": "^4.4.2",
+    "@types/styled-components": "^5.1.14",
+    "autoprefixer": "^10.3.3",
     "eslint": "7.32.0",
-    "eslint-config-next": "11.1.2"
+    "eslint-config-next": "11.1.2",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.9"
   }
 }
