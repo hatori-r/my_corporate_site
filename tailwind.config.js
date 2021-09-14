@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Noto Sans JP'],
         dotGothic: ['DotGothic16'],
+        Inter: ['Inter'],
       },
     },
   },

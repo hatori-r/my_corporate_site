@@ -11,7 +11,7 @@ const Footer: VFC<Props> = ({ siteTitle }) => {
     // <footer className="flex flex-col content-center items-center py-2 bg-black text-gray-200 text-xs">
     //   <span>&copy;{`2021 ${siteTitle}`}</span>
     // </footer>
-    <footer className="p-10 footer bg-neutral-focus text-base-200 footer-center">
+    <footer className="p-10 footer bg-neutral-focus text-base-200 footer-center font-Inter">
       <div className="grid grid-flow-col gap-4">
         <Link href="/">
           <a className="link link-hover">Home</a>

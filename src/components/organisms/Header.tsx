@@ -40,10 +40,10 @@ const Header: VFC<Props> = ({ siteTitle }) => {
     <header
       className={`${
         sitePath === '/' ? (isHeightOver ? 'bg-black' : '') : 'bg-black'
-      } fixed w-screen text-white z-50`}
+      } fixed w-screen text-white z-50 font-Inter`}
     >
       <div className="relative flex justify-between items-center py-2 px-4 z-10">
-        <h1 className="text-3xl font-sans">
+        <h1 className="text-3xl">
           <Link href="/">
             <a className="block py-2">{siteTitle}</a>
           </Link>
