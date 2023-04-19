@@ -37,7 +37,8 @@ const Home: VFC<Props> = ({
         <MainVisual />
         <NewsArea info={info} />
         <section>
-          <h2>行動者にキッカケを</h2>
+          {/* <h2>行動者にキッカケを</h2> */}
+          <h2>Information</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut animi
             modi molestiae sunt. Velit iure in commodi dolore ipsa rerum

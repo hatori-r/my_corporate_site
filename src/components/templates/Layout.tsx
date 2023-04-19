@@ -37,17 +37,17 @@ const Layout: VFC<SiteData> = ({
           rel="icon"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
+          href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap"
           rel="stylesheet"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
           rel="stylesheet"
         />
       </Head>
       <Header siteTitle={siteTitle} />
       <main
-        className={`${sitePath === '/' ? '' : 'pt-16'} min-h-screen`}
+        className={`${sitePath === '/' ? '' : 'pt-16'} min-h-screen font-Inter`}
       >
         {children}
       </main>
